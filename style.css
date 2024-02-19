@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    background-image: url(img/bg.jpg);
+    height: 100vh;
+    width: 100vw;
+    border-bottom: 5px solid rgb(92, 80, 80);
+}
+.second{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    border-bottom: 5px solid rgb(92, 80, 80);
+}
+.third{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    border-bottom: 5px solid rgb(92, 80, 80);
+}
+.fourth{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    border-bottom: 5px solid rgb(92, 80, 80);
+}
+.fifth{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    border-bottom: 5px solid rgb(92, 80, 80);
+
+}
+.sixth{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    border-bottom: 5px solid rgb(92, 80, 80);
+
+}
+.seventh{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    border-bottom: 5px solid rgb(92, 80, 80);
+}
