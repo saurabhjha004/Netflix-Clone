@@ -1,48 +1,122 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 .first{
     background-image: url(img/bg.jpg);
     height: 100vh;
     width: 100vw;
-    border-bottom: 5px solid rgb(92, 80, 80);
+    border-bottom: 8px solid rgb(92, 80, 80);
 }
+
+.lang select {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: rgb(144, 116, 116);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lang select:hover {
+    background-color: #e0e0e0;
+}
+.sign-in{
+    height: 5vh;
+    width: 6vw;
+    background-color: rgb(229, 9, 19);
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.sign-in:hover{
+    background-color: rgb(209, 13, 13);
+}
+.line1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+.line2{
+    font-size: 1rem;
+    color: white;
+}
+.line3{
+    font-size: 1rem;
+    color: white;
+}
+.get{
+    height: 8vh;
+    width: 14vw;
+    background-color: rgb(229, 9, 19);
+    font-size: 150%;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.get:hover{
+    background-color: rgb(209, 13, 13);
+}
+.email{
+    height: 8vh;
+    width: 24vw;
+    border-radius: 8px;
+}
+/* style.css */
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* second page */
 .second{
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     background-color: black;
-    border-bottom: 5px solid rgb(92, 80, 80);
+    border-bottom: 8px solid rgb(35, 35, 35);
 }
+/* third page */
 .third{
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     background-color: black;
-    border-bottom: 5px solid rgb(92, 80, 80);
+    border-bottom: 8px solid rgb(35, 35, 35);
 }
+/* fourth page */
 .fourth{
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     background-color: black;
-    border-bottom: 5px solid rgb(92, 80, 80);
+    border-bottom: 8px solid rgb(35, 35, 35);
 }
+/* fifth page */
 .fifth{
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     background-color: black;
-    border-bottom: 5px solid rgb(92, 80, 80);
+    border-bottom: 8px solid rgb(35, 35, 35);
 
 }
+/* sixth page */
 .sixth{
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     background-color: black;
-    border-bottom: 5px solid rgb(92, 80, 80);
+    border-bottom: 8px solid rgb(35, 35, 35);
 
 }
+/* seventh page */
 .seventh{
-    height: 100vh;
+    height: 60vh;
     width: 100vw;
     background-color: black;
-    border-bottom: 5px solid rgb(92, 80, 80);
 }
