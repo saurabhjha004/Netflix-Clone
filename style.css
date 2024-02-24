@@ -6,7 +6,7 @@
 }
 
 /* first page */
-main {
+header {
     background-image: url(img/bg.jpg);
     background-position: center;
     height: 110vh;
@@ -46,7 +46,7 @@ nav {
     padding: 3px;
     font-size: 18px;
     background-color: #333;
-    color: rgb(144, 116, 116);
+    color: rgb(227, 214, 214);
     margin: 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -311,12 +311,204 @@ nav {
     width: 100vw;
     background-color: black;
     border-bottom: 8px solid rgb(35, 35, 35);
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
+.sixth h1 {
+    color: white;
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.ques {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.ques1 {
+    color: white;
+    width: 70vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    background-color: #333;
+    cursor: pointer;
+}
+
+.ques2 {
+    color: white;
+    width: 70vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    background-color: #333;
+    cursor: pointer;
+}
+
+.ques3 {
+    color: white;
+    width: 70vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    background-color: #333;
+    cursor: pointer;
+}
+
+.ques4 {
+    color: white;
+    width: 70vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    background-color: #333;
+    cursor: pointer;
+}
+
+.ques5 {
+    color: white;
+    width: 70vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    background-color: #333;
+    cursor: pointer;
+}
+
+.ques6 {
+    color: white;
+    width: 70vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    background-color: #333;
+    cursor: pointer;
+}
+
+.sixth p {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.lowemail {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.lowebox {
+    height: 8vh;
+    width: 30vw;
+    background-color: #333;
+    font-size: large;
+    color: aliceblue;
+    border-radius: 5px;
+    margin: 7px;
+}
+
+.lowget {
+    height: 8vh;
+    width: 15vw;
+    background-color: rgb(229, 9, 19);
+    font-size: 150%;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lowget:hover {
+    background-color: rgb(209, 13, 13);
+}
+
+
 /* seventh page */
-.seventh {
-    height: 60vh;
+footer {
+    height: 65vh;
     width: 100vw;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.call {
+    color: rgb(255, 255, 255, 0.7);
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-gap: 20px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.grid-item {
+    color: rgb(255, 255, 255, 0.7);
+    text-align: start;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.lang {
+    height: 15vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.otherlang select {
+    padding: 3px;
+    font-size: 18px;
+    background-color: #333;
+    color: rgb(227, 214, 214);
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+.lowlang select:hover {
+    background-color: #e0e0e0;
+}
+
+.name {
+    color: rgb(255, 255, 255, 0.7);
+    margin-left: 150px;
+    margin-bottom: 30px;
 }
